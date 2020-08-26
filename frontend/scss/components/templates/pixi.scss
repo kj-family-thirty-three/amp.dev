@@ -126,13 +126,17 @@
   &-checks {
     grid-column: 1/25;
     margin-bottom: 200px;
-    padding: 0 15px;
+
 
     &-reports {
       grid-column: 1/25;
       margin: 57px 0;
       padding: 60px 0 80px;
       background: linear-gradient(225deg, color('robins-egg') 0, color('blue-ribbon') 75%);
+
+      @media (min-width: 768px) {
+        margin: 57px 15px;
+      }
 
       section {
         grid-column: 6/20;
