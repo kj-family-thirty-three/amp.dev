@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import opportunityToImprove from '../checkAggregation/opportunityToImprove.js';
 import {UNIT_DEC, UNIT_SEC, UNIT_MS} from './constants.js';
 
 export const Category = {
